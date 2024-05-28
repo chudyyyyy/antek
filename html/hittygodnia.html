@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/opinia.css">
+    <title>Muzyka To Pasja</title>
+</head>
+
+<body>
+    <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-black py-0 px-0">
+            <a class="navbar-brand" href="index.html"><img id="logo"
+                    src="https://i.pinimg.com/564x/43/a4/63/43a463bae716f92105a0b03bbca91558.jpg">
+                &nbsp;&nbsp;&nbsp;Muzyka To Pasja</a>
+            <span class="v-line"></span>
+            <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Strona Główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sklep.html">Sklep</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lista.html">Lista Przebojów</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Rysunek.html">Wygraj płyte!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hittygodnia.html">Hit Tygodnia</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Więcej</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Sklep.html">Sklep</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Lista.html">Lista przebojów</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Kontakt.html">Kontakt</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Regulamin.html">Regulamin</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Zaloguj.html">Zaloguj</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Zarejestruj.html">Zarejestruj</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Onas.html">O nas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="hittygodnia.html">Hit Tygodnia</a></li>
+                            <li>
+                            <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Rysunek.html">Wygraj płyte!</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="znacznikMAP.html">Perkusja</a></li>
+                        </ul>
+                        </li>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container1">
+        <h1 class="text6">Największy Hit Tygodnia!</h1>
+        <img src="https://i.ytimg.com/vi/xy_UAmjMQXo/maxresdefault.jpg" alt="">
+        <div class="col-md-7 center-item">
+            <p>
+                Kendrick Lamar - Cartoons&Cereal<br><br>
+                Daj znać jak tobie podoba się ten Hit i oceń go poniżej!</p>
+        </div>
+
+        <div class="form_container">
+            <form id="opinionForm" class="row g-3">
+                <div class="col-md-6">
+                    <input type="text" id="imie" class="form-control" placeholder="Imię" required>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" id="nazwisko" class="form-control" placeholder="Nazwisko" required>
+                </div>
+
+                <div class="col-md-6">
+                    <select class="form-select" id="Ocena_melod" required>
+                        <option value="">Jak oceniasz melodię?</option>
+                        <option value="Tragiczna">Tragiczna</option>
+                        <option value="Słaba">Słaba</option>
+                        <option value="Średnia">Średnia</option>
+                        <option value="Bardzo Dobra">Bardzo Dobra</option>
+                        <option value="Świetna">Świetna</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-select" id="Ocena_tekst" required>
+                        <option value="">Jak oceniasz tekst?</option>
+                        <option value="Tragiczny">Tragiczny</option>
+                        <option value="Słaby">Słaby</option>
+                        <option value="Średni">Średni</option>
+                        <option value="Badzo Dobry">Bardzo dobry</option>
+                        <option value="Świetny">Świetny</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <input id="opinie" class="form-control" placeholder="Podziel się z nami swoją pełną opinią"
+                        required>
+                </div>
+                <div class="col-md-6">
+                    <input type="date" id="Data_opinii" class="form-control" placeholder="Data opinii" min="01-01-1900"
+                        onfocus="this.max=new Date().toISOString().split('T')[0]" required>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="skillsRange">Twoje ocena w skali (1-10):</label>
+                    <input type="range" class="form-control-range" id="skillsRange" name="skills" min="1" max="10">
+                    <output id="skillsOutput" for="skillsRange"></output>
+                </div>
+
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Dodaj Opinię</button>
+                    <button class="btn btn-primary" type="button" id="clearTable">Wyczyść tabelę</button>
+                </div>
+
+
+            </form>
+        </div>
+
+        <div class="container">
+            <div class="table_container" id="table_options">
+
+                <table id="Tabela_opini">
+                    <thead>
+                        <tr>
+                            <th rowspan="2" width='10%' height="5%">Imię</th>
+                            <th rowspan="2" width='10%' height="5%">Nazwisko</th>
+                            <th rowspan="2" width='15%' height="5%">Ocena Melodi</th>
+                            <th rowspan="2" width='15%' height="5%">Ocena Tekstu</th>
+                            <th rowspan="2" width='30%' height="5%">Opinia</th>
+                            <th rowspan="2" width='10%' height="5%">Data</th>
+                            <th rowspan="2" width='10%' height="5%">Ocena(1-10)</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        
+
+
+<script src="../js/suwak.js"></script>
+        <script src="../js/opinia.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+            </script>
+
+
+</body>
+
+</html>

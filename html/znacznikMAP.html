@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/perusja.css">
+
+    <title>Muzyka To Pasja</title>
+</head>
+
+<body>
+    <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-black py-0 px-0">
+            <a class="navbar-brand" href="index.html"><img id="logo"
+                    src="https://i.pinimg.com/564x/43/a4/63/43a463bae716f92105a0b03bbca91558.jpg">
+                &nbsp;&nbsp;&nbsp;Muzyka To Pasja</a>
+            <span class="v-line"></span>
+            <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Strona Główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sklep.html">Sklep</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lista.html">Lista Przebojów</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Rysunek.html">Wygraj płyte!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hittygodnia.html">Hit Tygodnia</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Więcej</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Sklep.html">Sklep</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Lista.html">Lista przebojów</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Kontakt.html">Kontakt</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Regulamin.html">Regulamin</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Zaloguj.html">Zaloguj</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Zarejestruj.html">Zarejestruj</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Onas.html">O nas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="hittygodnia.html">Hit Tygodnia</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="Rysunek.html">Wygraj płyte!</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="znacznikMAP.html">Perkusja</a></li>
+                        </ul>
+                    </li>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-main">
+        <h1>Oto wszystkie elementy perkusji!</h1>
+        <h4>Kliknij na elementy aby dowiedzieć się jak się nazywają</h4>
+        <figure>
+            <img src="../jpg/perkusja.jpg" name="perkusja" usemap="#perkusjaAreas" alt="Schemat perkusji"/>
+            <map name="perkusjaAreas">
+                <area shape="poly" name="Bęben Basowy"
+                    coords="114,693,140,690,162,675,181,667,208,685,247,701,279,708,320,710,397,688,427,674,453,679,473,698,513,721,535,712,465,656,482,641,506,551,494,489,457,430,413,403,364,387,332,387,280,386,246,398,210,416,183,442,154,511,145,560,158,610,164,640,133,668"
+                    alt="Bęben Basowy" onclick="showAlert('Bęben Basowy')" />
+
+                <area shape="poly" name="Talerz"
+                    coords="308,72,269,84,238,101,256,128,293,138,322,147,357,146,395,136,415,125,412,108,378,90,340,79"
+                    alt="Talerz" onclick="showAlert('Talerz')" />
+
+                <area shape="poly" name="Werbel"
+                    coords="561,305,525,307,488,309,468,315,470,350,472,394,483,422,561,413,581,435,579,495,574,543,548,585,498,633,474,669,501,676,535,643,586,611,605,623,637,661,685,696,719,695,649,587,619,533,622,475,623,433,655,413,714,403,724,378,709,320,708,289,658,295,601,299"
+                    alt="Werbel" onclick="showAlert('Werbel')" />
+
+                    <area shape="poly" name="Tom boczny"
+                    coords="265,364,173,357,123,352,75,354,81,384,65,417,44,488,4,605,28,651,47,602,72,555,106,544,131,544,134,494,150,460,174,430,215,401,255,381,279,373"
+                    alt="Tom boczny" onclick="showAlert('Tom boczny')" />
+
+                    <area shape="poly" name="Tomy"
+                    coords="453,148,378,151,328,154,264,147,194,140,142,152,142,212,134,261,116,299,153,318,250,348,337,340,446,309,510,287,524,229,504,170"
+                    alt="Tomy" onclick="showAlert('Tomy')" />
+
+                    <area shape="poly" name="Talerz hi-hat"
+                    coords="652,264,624,219,576,190,578,158,615,127,655,104,701,117,732,153,730,177,701,231,666,266"
+                    alt="Talerz hi-hat" onclick="showAlert('Talerz hi-hat')" />
+            </map>
+        </figure>
+    </div>
+    <script>
+        function showAlert(areaName) {
+            alert("Kliknięto na: " + areaName);
+        }
+    </script>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+
+</body>
+
+</html>

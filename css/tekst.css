@@ -1,0 +1,15 @@
+.container{
+    max-width: 2000px;
+    width:90%;
+    margin:0 auto;
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding:20px;
+    background: linear-gradient(to bottom, #C04848, #FF5F6D);
+    border-radius: 20px;
+}
+
+.text5{
+    color:white;
+    font-size: 20px;
+}
